@@ -1,0 +1,418 @@
+
+/*     font-family: 'Poppins', sans-serif;     */
+body{
+	font-family: 'TT Norms';
+	font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul li a,a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+i{
+	color: #555555;
+}
+h5 {
+	font-size: 20px;
+	color: #2D2926;
+}
+/*=========================== Start Dashboard (Edit) =============================*/
+.noti_red{
+	position: relative;
+}
+.noti_red_posi {
+	position: absolute;
+	top: 11px;
+	right: 12px;
+	width: 7px;
+	height: 7px;
+	background: red;
+	border-radius: 50%;
+}
+.mu_profile_items_right {
+	display: flex;
+	flex-direction: column;
+	/* margin-left: 10px; */
+	padding-left: 10px;
+}
+.mu_profile_items{
+	display: flex;
+	align-items: center;
+}
+.mu_mes_not_pro_dashboard .navbar-nav {
+	align-items: center;
+}
+.main-content {
+	padding-left: 250px;
+	padding-right: 0px;
+	padding-top: 69px;
+	width: 100%;
+	position: relative;
+}
+.sidebar-mini .main-content, .sidebar-mini .main-footer {
+	padding-left: 65px;
+}
+.main-sidebar .sidebar-menu li a {
+	position: relative;
+	display: flex;
+	align-items: center;
+	height: 65px;
+	padding: 0 25px;
+	width: 100%;
+	letter-spacing: 0.3px;
+	color: #60686f;
+	font-weight: 600;
+	text-decoration: none;
+	font-family: 'TT Norms';
+	font-weight: 500;
+}
+.main-sidebar .sidebar-menu li a i {
+	width: 28px;
+	font-size: 18px;
+	margin-right: 10px;
+	text-align: center;
+}
+.main-sidebar .sidebar-menu li a:hover,
+.main-sidebar .sidebar-menu li a:hover i {
+	color: #008248;
+}
+.theme-white .navbar {
+	background: #FFFFFF;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+.main-sidebar {
+	position: fixed;
+	top: 0;
+	height: 100%;
+	width: 250px;
+	background-color: #fff;
+	z-index: 880;
+	left: 0;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+	z-index: 33333;
+}
+.theme-white .navbar .form-inline .btn {
+	background-color: transparent;
+	margin-top: 3px;
+}
+.theme-white .navbar .form-inline .btn i{
+	color: rgba(147, 145, 144, 0.5);
+	font-size: 16px;
+
+}
+.theme-white .navbar .form-inline .form-control {
+	background-color: transparent;
+	margin-left: -29px;
+	font-size: 16px;
+}
+.search-element input::placeholder{
+	color: #C9C8C7 !important;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+.navbar .nav-link.nav-link-user .user-img-radious-style {
+	border-radius: 50%;
+	box-shadow: none;
+}
+.mu_profile_items_right1{
+	font-size: 10px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #555555;
+}
+.mu_profile_items_right span {
+	display: block;
+	line-height: 17px;
+	margin-left: 0px !important;
+}
+.mu_profile_items_right2{
+	color: #555555;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+.mu_profile_items_right2 i {
+	font-size: 13px !important;
+	margin-left: 5px !important;
+}
+.mu_profile_items_left img {
+	width: 45px !important;
+}
+.mu_notific_pos {
+	position: relative;
+	margin: 0px 29px;
+	color: #008248;
+}
+.mu_notific_pos::before {
+	width: ;
+	position: absolute;
+	content: "";
+	width: 160%;
+	height: 172%;
+	background: #E7F4EE;
+	top: -15px;
+	left: -13px;
+}
+.mu_evant_create_btn a {
+	background: #008248;
+	border-radius: 90px;
+	color: #FFF;
+	padding: 9px 20px;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	margin-right: 50px;
+}
+.mu_evant_create_btn a:hover{
+	color: #FFF;
+	text-decoration: none;
+	background: #0fa663;
+}
+.mu_evant_create_btn a i{
+	font-size: 18px;
+	color: #FFF;
+}
+.mu_evant_create_btn a span{
+	margin-left: 10px;
+}
+.mu_profile_items_a_design a {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #ECECEC;
+}
+.mu_profile_items_a_design a:last-child{
+	border-bottom: none;
+}
+.mu_profile_items_a_design a i {
+	background: #E7F4EE;
+	width: 35px !important;
+	height: 35px !important;
+	border-radius: 50%;
+	display: ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dropdown-list .dropdown-list-message .dropdown-item {
+	display: flex;
+	padding-top: 4px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 0px;
+	padding:10px 10px 10px 20px;
+}
+.mu_not_light_font{
+	font-weight: 300;
+}
+.dropdown-list .dropdown-list-content {
+	height: auto;
+	overflow: hidden;
+	padding: 10px 0px;f
+}
+.logo-name img {
+	width: 115px;
+}
+.footer-left a {
+	color: #888888;
+}
+.footer_right ul {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.footer_right ul li a {
+	color: #888888;
+	margin-left: 20px;
+}
+.mu_footer_main{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/*=========================== End Dashboard (Edit) =============================*/
+
+.vh {
+	position: absolute !important; 
+	clip: rect(1px, 1px, 1px, 1px); 
+	padding: 0 !important; 
+	border: 0 !important; 
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
+.checkbox_styel_popup {
+	padding-left: 32px;
+	position: relative;
+}
+.checkbox_styel_popup label::before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	border: 1px solid rgba(75, 101, 132, 0.3);
+	display: inline-block;
+	margin-right: 16px;
+	border-radius: 50%;
+	margin-top: 6px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+.checkbox_styel_popup input[type="checkbox"]:checked ~ label:before {
+	background: #008248 no-repeat center; 
+	background-size: 12px 12px; 
+	background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDQ1LjcwMSA0NS43IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NS43MDEgNDUuNzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0yMC42ODcsMzguMzMyYy0yLjA3MiwyLjA3Mi01LjQzNCwyLjA3Mi03LjUwNSwwTDEuNTU0LDI2LjcwNGMtMi4wNzItMi4wNzEtMi4wNzItNS40MzMsMC03LjUwNCAgICBjMi4wNzEtMi4wNzIsNS40MzMtMi4wNzIsNy41MDUsMGw2LjkyOCw2LjkyN2MwLjUyMywwLjUyMiwxLjM3MiwwLjUyMiwxLjg5NiwwTDM2LjY0Miw3LjM2OGMyLjA3MS0yLjA3Miw1LjQzMy0yLjA3Miw3LjUwNSwwICAgIGMwLjk5NSwwLjk5NSwxLjU1NCwyLjM0NSwxLjU1NCwzLjc1MmMwLDEuNDA3LTAuNTU5LDIuNzU3LTEuNTU0LDMuNzUyTDIwLjY4NywzOC4zMzJ6IiBmaWxsPSIjRkZGRkZGIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==);
+}
+.checkbox_styel_popup input[type="checkbox"]:focus ~ label {color: #DDD;}
+
+/*=========================== 4. Number page Body deshboard main area start  =============================*/
+
+.deshboard_main_text_area {
+	display: flex;
+	height: 100%;
+}
+.deshboard_main_body_area{
+	flex: 0 0 78%;
+}
+.deshboard_main_body_cotainer {
+	padding: 30px 30px 0 30px;
+}
+.single_btn_area {
+	background: #008248;
+	color: #fff;
+	display: inline-block;
+	padding: 4px 20px;
+	border-radius: 50px;
+}
+/* Deshboard header style start  */
+.deshboard_main_body_text_header_area {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 16px;
+}
+
+.deshboard_main_body_text_header_area_right a {
+	background: #0082481c;
+	color: #008248;
+	display: inline-block;
+	padding: 3px 16px;
+	border-radius: 20px;
+}
+/* Deshboard header style end  */
+/* Single item start */
+.deshboard_main_body_single_item_area {
+	background: #fff;
+	border-radius: 12px;
+	height: 100%;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.deshboard_main_body_single_item_area_ex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.deshboard_main_body_single_item_area_ex a {
+	display:inline-block ;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+.deshboard_main_body_single_item_area_ex a img {
+	height: 70px;
+	width: 70px;
+}
+.deshboard_main_body_single_item_area > img {
+	width: 100%;
+	height: 159px;
+	object-fit: cover;
+	border-radius: 12px 12px 0 0;
+}
+.deshboard_main_body_single_item_area_sub_text p {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	color: #2D2926;
+	padding-bottom: 7px;
+}
+.deshboard_main_body_single_item_area_sub_text {
+	padding: 5px 5px 23px 5px;
+	text-align: center;
+}
+.deshboard_main_body_single_item_area_sub_text ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.deshboard_main_body_single_item_area_sub_text ul li a {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin: 0 -6px;
+	border-radius: 50%;
+	background: #E7F4EE;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+} 
+.deshboard_main_body_single_item_area_sub_text ul li a img {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+}
+/* Duel start  */
+.deshboard_main_middle_single_item_area {
+	padding: 20px;
+	background: #fff;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 12px;
+}
+.deshboard_main_middle_single_item_area .deshboard_main_body_single_item_area{
+	box-shadow: none !important;
+}
+.deshboard_main_middle_single_item_area .deshboard_main_body_single_item_area_sub_text {
+	padding: 5px 5px 6px 5px;
+}
+/* Menu area start  */
+.deshboard_main_footer_menu_area {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 4px;
+}
+
+/* Single item start */
+
+
+/* Right profile area start  */
+.deshboard_main_text_right_profile_area {
+	flex: 0 0 22%;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+	background: #fff;
+	padding: 30px 10px 20px 20px;
+}
+.deshboard_main_text_right_protfolio_area_sub_height h5 {
+	padding-bottom: 17px;
+}
+.deshboard_main_checkbox_area_start .checkbox_styel_popup label{
+	color: #2D2926;
+	line-height: 2.3;
+	font-weight: 500;
+}
+
+
+
+/*=========================== 4. Number page Body deshboard main area End  =============================*/
+

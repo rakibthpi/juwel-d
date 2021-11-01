@@ -1,0 +1,58 @@
+@media all and (max-width: 1199px){
+
+}
+@media all and (max-width: 1024px){
+	.main-content {
+		padding-left: 0px;
+	}
+}
+@media all and (max-width: 991px){
+	.mu_evant_create_btn a {
+		padding: 8px 17px;
+		margin-right: 12px;
+		font-size: 13px;
+	}
+	.mu_footer_main {
+		flex-direction: column;
+	}
+}
+
+@media all and (max-width: 767px){
+	.mu_evant_create_btn a {
+		padding: 5px 15px;
+	}
+}
+
+@media all and (max-width: 575px){
+	.mu_evant_create_btn a span {
+		display: none;
+	}
+	.mu_evant_create_btn a {
+		padding: 8px 8px;
+	}
+	.mu_evant_create_btn a i{
+		margin-left: 0px !important;
+	}
+}
+
+@media all and (max-width: 450px){
+	.mu_notific_pos {
+		position: relative;
+		margin: 0px 15px;
+		color: #008248;
+	}
+	.mu_notific_pos::before {
+		width: 142%;
+		left: -7px;
+	}
+	.navbar {
+		padding: .5rem .5rem;
+	}
+	.footer_right ul {
+		justify-content: center;
+		margin-top: 10px;
+	}
+	.main-footer .footer-left {
+		text-align: center;
+	}
+}
