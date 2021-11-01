@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+  <title>Nice List - Your Events</title>
+  <!-- Favicon -->
+  <link rel='shortcut icon' type='image/x-icon' href='assets/img/logo2.png' />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/fonts/new_font/stylesheet.css">
+  <!-- Fontawesome CDN -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <!-- General CSS Files -->
+  <link rel="stylesheet" href="assets/css/app.min.css">
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <!-- Custom style CSS -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <!-- Responsive CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+</head>
+
+<body>
+  <div class="loader"></div>
+  <div id="app">
+    <div class="main-wrapper main-wrapper-1">
+    <!--============================== Start Dashboard (Edit) ==============================-->
+      <div class="navbar-bg"></div>
+      <nav class="navbar navbar-expand-lg main-navbar sticky mu_mes_not_pro_dashboard">
+        <div class="form-inline mr-auto">
+          <ul class="navbar-nav mr-3">
+            <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg
+									collapse-btn"> <i data-feather="align-justify"></i></a></li>
+            <li><a href="#" class="nav-link nav-link-lg fullscreen-btn">
+                <i data-feather="maximize"></i>
+              </a></li>
+            <li>
+              <form class="form-inline mr-auto">
+                <div class="search-element">
+                  <button class="btn" type="submit">
+                    <i class="fas fa-search"></i>
+                  </button>
+                  <input class="form-control" type="search" placeholder="Search" aria-label="Search" data-width="200">
+                </div>
+              </form>
+            </li>
+          </ul>
+        </div>
+        <ul class="navbar-nav navbar-right">
+          <li class="mu_evant_create">
+            <div class="mu_evant_create_btn">
+              <a href="#"><i class="fas fa-plus-circle"></i><span>Event Create</span></a>
+            </div>
+          </li>
+          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown"
+              class="nav-link nav-link-lg message-toggle"><i class="far fa-comment-dots"></i>
+              <!-- <span class="badge headerBadge1">
+                6 </span> --> </a>
+          </li>
+          <li class="dropdown dropdown-list-toggle mu_notific_pos"><a href="#" data-toggle="dropdown"
+              class="noti_red nav-link notification-toggle nav-link-lg"><i data-feather="bell" class="bell"></i>
+              <span class="noti_red_posi"></span>
+            </a>
+            <div class="dropdown-menu dropdown-list dropdown-menu-right pullDown">
+              <div class="dropdown-list-content dropdown-list-message">
+                <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar
+                      text-white"> <img alt="image" src="assets/img/users/user-1.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Victoria <span class="mu_not_light_font"> added to wishlist iPhone.</span></span>
+                    <span class="time">2 Min Ago</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-2.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Victoria <span class="mu_not_light_font">added to wishlist apple.</span></span>
+                    <span class="time">5 Min Ago</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-5.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Victoria <span class="mu_not_light_font">added to wishlist apple.</span></span> <span class="time">12 Min Ago</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-4.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Victoria <span class="mu_not_light_font">added to wishlist apple.</span></span>  <span class="time">30
+                      Min Ago</span>
+                  </span>
+                </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                    <img alt="image" src="assets/img/users/user-3.png" class="rounded-circle">
+                  </span> <span class="dropdown-item-desc"> <span class="message-user">Victoria <span class="mu_not_light_font">added to wishlist apple.</span></span> <span class="time">1
+                      Days Ago</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="mu_profile_items nav-link dropdown-toggle nav-link-lg nav-link-user">
+                <span class="mu_profile_items_left"><img alt="image" src="assets/img/user.png" class="user-img-radious-style"></span>
+                <span class="d-none d-lg-inline-block mu_profile_items_right">
+                  <span class="mu_profile_items_right1">Welcome</span>
+                  <span class="mu_profile_items_right2">Anderson<i class="fas fa-chevron-down"></i></span>
+                </span>
+              </a>
+
+            <div class="dropdown-menu dropdown-menu-right pullDown mu_profile_items_a_design">
+              <a href="profile.html" class="dropdown-item has-icon"> <i class="fas
+										fa-user"></i> Profile
+              </a>
+              <a href="timeline.html" class="dropdown-item has-icon"> <i class="fas fa-cog"></i>
+                Account Settings
+              </a>
+              <a href="auth-login.html" class="dropdown-item has-icon"> <i class="fas fa-headset"></i>
+                Help & Support
+              </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="main-sidebar sidebar-style-2">
+        <aside id="sidebar-wrapper">
+          <div class="sidebar-brand">
+            <a href="index.html"> <img alt="image" src="assets/img/logo2.png" class="header-logo" /> <span
+                class="logo-name"><img src="assets/img/logo.png"></span>
+            </a>
+          </div>
+          <ul class="sidebar-menu">
+            <li class="dropdown">
+              <a href="index.html" class="nav-link"><i class="fas fa-home"></i><span>Dashboard</span></a>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="nav-link"><i class="far fa-calendar-alt"></i><span>My Events</span></a>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="nav-link"><i class="fas fa-star"></i><span>My Wishlists</span></a>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="nav-link"><i class="fas fa-store"></i><span>Shop</span></a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+      <!--============================== End Dashboard (Edit) ==============================-->
+
+      <!--============================== Start Main Content ==============================-->
+      <div class="main-content">
+        <section class="section">
+          <div class="section-body">
+            <!-- add content here -->
+            <!-- Deshboar main area start  -->
+            <div class="deshboard_main_text_area">
+              <div class="deshboard_main_body_your_events_area">
+
+                <div class="deshboard_main_body_cotainer">
+                  <!-- Deshboard Header area start  -->
+                  <div class="deshboard_main_body_text_header_area">
+                    <div class="deshboard_main_body_text_header_area_left">
+                      <h5>Upcoming Events</h5>
+                    </div>
+                    <div class="deshboard_main_body_text_header_area_right">
+                      <a href="#">See All</a>
+                    </div>
+                  </div>
+                  <!-- Deshboard Header area end  -->
+
+                  <div class="row deshboard_main_your_events_gap_area">
+                    <!-- 1. Single item start  -->
+                    <div class="col-md-3">
+                      <div class="deshboard_main_body_single_item_area">
+                          <img src="assets/img/deshboard/your-event/1.png" alt="photos">
+                          <div class="deshboard_main_body_single_item_area_sub_text">
+                            <p>College Gift Exchange</p>
+                            <ul>
+                              <li><a href="#"><img src="assets/img/deshboard/gif/single1.png" alt="photos"></a></li>
+                              <li><a href="#"><img src="assets/img/deshboard/gif/single2.png" alt="photos"></a></li>
+                              <li><a href="#"><img src="assets/img/deshboard/gif/single3.png" alt="photos"></a></li>
+                              <li><a href="#">5</a></li>
+                            </ul>
+                          </div>
+                      </div>
+                    </div>
+                    <!-- 1. Single item End  -->
+                    <!-- 2. Single item start  -->
+                    <div class="col-md-3">
+                      <div class="deshboard_main_body_single_item_area">
+                          <img src="assets/img/deshboard/your-event/2.png" alt="photos">
+                          <div class="deshboard_main_body_single_item_area_sub_text">
+                            <p>College Gift Exchange</p>
+                            <ul>
+                              <li><a href="#"><img src="assets/img/deshboard/gif/single1.png" alt="photos"></a></li>
+                              <li><a href="#"><img src="assets/img/deshboard/gif/single2.png" alt="photos"></a></li>
+                              <li><a href="#"><img src="assets/img/deshboard/gif/single3.png" alt="photos"></a></li>
+                              <li><a href="#">5</a></li>
+                            </ul>
+                          </div>
+                      </div>
+                    </div>
+                    <!-- 2. Single item End  -->
+
+                    <!-- 3. Single item start  -->
+                    <div class="col-md-3">
+                      <div class="deshboard_main_body_single_item_area">
+                          <img src="assets/img/deshboard/your-event/3.png" alt="photos">
+                          <div class="deshboard_main_body_single_item_area_sub_text">
+                            <p>College Gift Exchange</p>
+                            <ul>
+                              <li><a href="#"><img src="assets/img/deshboard/gif/single1.png" alt="photos"></a></li>
+                              <li><a href="#"><img src="assets/img/deshboard/gif/single2.png" alt="photos"></a></li>
+                              <li><a href="#"><img src="assets/img/deshboard/gif/single3.png" alt="photos"></a></li>
+                              <li><a href="#">5</a></li>
+                            </ul>
+                          </div>
+                      </div>
+                    </div>
+                    <!-- 3. Single item End  -->
+
+                    <!-- 4. Single item start  -->
+                    <div class="col-md-3">
+                      <div class="deshboard_main_body_single_item_area">
+                          <img src="assets/img/deshboard/your-event/2.png" alt="photos">
+                          <div class="deshboard_main_body_single_item_area_sub_text">
+                            <p>College Gift Exchange</p>
+                            <ul>
+                              <li><a href="#"><img src="assets/img/deshboard/gif/single1.png" alt="photos"></a></li>
+                              <li><a href="#"><img src="assets/img/deshboard/gif/single2.png" alt="photos"></a></li>
+                              <li><a href="#"><img src="assets/img/deshboard/gif/single3.png" alt="photos"></a></li>
+                              <li><a href="#">5</a></li>
+                            </ul>
+                          </div>
+                      </div>
+                    </div>
+                    <!-- 4. Single item End  -->
+
+                    <!-- 5. Single item start  -->
+                    <div class="col-md-3">
+                      <div class="deshboard_main_body_single_item_area">
+                          <img src="assets/img/deshboard/gif/ex1.png" alt="photos">
+                          <div class="deshboard_main_body_single_item_area_sub_text">
+                            <p>College Gift Exchange</p>
+                            <ul>
+                              <li><a href="#"><img src="assets/img/deshboard/gif/single1.png" alt="photos"></a></li>
+                              <li><a href="#"><img src="assets/img/deshboard/gif/single2.png" alt="photos"></a></li>
+                              <li><a href="#"><img src="assets/img/deshboard/gif/single3.png" alt="photos"></a></li>
+                              <li><a href="#">5</a></li>
+                            </ul>
+                          </div>
+                      </div>
+                    </div>
+                    <!-- 5. Single item End  -->
+
+                    <!-- 6. Single item start  -->
+                    <div class="col-md-3">
+                      <div class="deshboard_main_body_single_item_area deshboard_main_body_single_item_area_ex">
+                         <div class="deshboard_main_body_single_item_area_sub_text">
+                            <a href="#"><img src="assets/img/deshboard/gif/add.png" alt="icon"></a>
+                            <p>College Gift Exchange</p>
+                          </div>
+                      </div>
+                    </div>
+                    <!-- 6. Single item End  -->
+                  </div>
+                </div>
+
+                <div class="deshboard_main_body_cotainer">
+                  <!-- Deshboard Header area end  -->
+                 
+                  <!-- Menu area start  -->
+                 <div class="deshboard_main_footer_menu_area">
+                    <div class="footer-left">
+                      <a href="templateshub.net">© Copyright Nice List 2021. All Rights Reserved.</a></a>
+                    </div>
+                    <div class="footer_right">
+                      <ul>
+                        <li><a href="#">Help & Support</a></li>
+                        <li><a href="#">Privacy policies</a></li>
+                        <li><a href="#">Terms & conditions</a></li>
+                        <li><a href="#">About Us</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Menu area End  -->
+                </div>
+              </div>
+            </div>
+            <!-- Deshboar main area start  -->
+           
+          </div>
+        </section>
+      </div>
+      <!--============================== End Main Content ==============================-->
+
+      <!--============================== Start Footer Content ==============================-->
+      <!-- <footer class="main-footer mu_footer_main">
+        <div class="footer-left">
+          <a href="templateshub.net">© Copyright Nice List 2021. All Rights Reserved.</a></a>
+        </div>
+        <div class="footer_right">
+          <ul>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Privacy policies</a></li>
+            <li><a href="#">Terms & conditions</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+      </footer> -->
+      <!--============================== End Footer Content ==============================-->
+    </div>
+  </div>
+  <!-- General JS Scripts -->
+  <script src="assets/js/app.min.js"></script>
+  <!-- JS Libraies -->
+  <!-- Page Specific JS File -->
+  <!-- Template JS File -->
+  <script src="assets/js/scripts.js"></script>
+  <script src="assets/js/scripts2.js"></script>
+  <!-- Custom JS File -->
+  <script src="assets/js/custom.js"></script>
+</body>
+
+
+<!-- blank.html  21 Nov 2019 03:54:41 GMT -->
+</html>
