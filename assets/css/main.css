@@ -26,6 +26,18 @@ h5 {
 	font-size: 20px;
 	color: #2D2926;
 }
+.btn_all_style {
+	color: #008248;
+	display: inline-block;
+	background: #E7F4EE;
+	border-radius: 50px;
+	padding: 7px 20px;
+	transition: .3s;
+}
+.btn_all_style:hover{
+	color:#fff !important;
+	background: #008248;
+}
 /*=========================== Start Dashboard (Edit) =============================*/
 .noti_red{
 	position: relative;
@@ -518,9 +530,38 @@ h5 {
 	padding: 25px 20px;
 	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
+.deshboard_main_text_account_single_password_card_area:nth-child(2){
+	margin-top: 25px;
+}
 .deshboard_main_text_account_single_password_card_area p {
 	line-height: 1.3;
-	padding: 8px 0 13px 0;
+}
+.deshboard_main_text_account_single_password_card_area p span{
+	font-size: 32px;
+	font-weight: 600;
+	color: #2D2926;
+}
+.deshboard_main_text_account_single_password_card_area h5 {
+	padding-bottom: 15px;
+}
+.deshboard_main_text_account_single_password_card_area a{
+	margin-top: 25px;
+}
+.btn_all_style i{
+	color: #008248;
+	padding-right: 5px;
+}
+.btn_all_style:hover i{
+	color: #fff;
+}
+.btn_all_style_active{
+	background: #008248;
+	color: #fff;
+	border: 1px solid #008248;
+}
+.btn_all_style_active:hover{
+	background: #fff;
+	color: #008248 !important;
 }
 
 /*=========================== 5. Number page Body deshboard main area End  =============================*/
