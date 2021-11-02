@@ -569,3 +569,17 @@ h5 {
 
 /*=========================== 5. Number page Body deshboard main area End  =============================*/
 
+/*=========================== 6. Help Banner Main area start   =============================*/
+
+
+.deshboard_help_main_banner_text_area{
+	background: url('../img/deshboard/banner.svg') no-repeat scroll 0 0 / cover;
+	padding: 90px 0;
+}
+.deshboard_help_main_area {
+	overflow: hidden;
+}
+
+
+/*=========================== 6. Help Banner Main area End   =============================*/
+
