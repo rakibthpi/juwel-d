@@ -1,7 +1,7 @@
 
 /*     font-family: 'Poppins', sans-serif;     */
 body{
-	font-family: 'TT Norms';
+	font-family: 'TT Norms' !important;
 	font-weight: 400;
 }
 h1,h2,h3,h4,h5,h6,p{
@@ -21,6 +21,13 @@ a:hover{
 }
 i{
 	color: #555555;
+}
+p{
+	line-height: 1.4;
+}
+h4{
+	font-size: 24px;
+	color: #3D3838;
 }
 h5 {
 	font-size: 20px;
@@ -454,8 +461,6 @@ h5 {
 	justify-content: space-between;
 }
 .deshboard_main_text_account_area h4 {
-	font-size: 24px;
-	color: #3D3838;
 	padding-bottom: 20px;
 }
 /* Profile area start  */
@@ -570,7 +575,78 @@ h5 {
 /*=========================== 5. Number page Body deshboard main area End  =============================*/
 
 /*=========================== 6. Help Banner Main area start   =============================*/
-
+/* according page area start  */
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+  border: none;
+}
+.myaccordion .card-header {
+	border-bottom-color: #EDEFF0;
+	background: #E7F4EE;
+}
+.d-flex.align-items-center.justify-content-between.btn.btn-link.collapsed{
+	color: #000;
+}
+.card .card-header .btn:hover, .card .card-header .btn:focus {
+	color: #008248 !important;
+}
+.d-flex.align-items-center.justify-content-between.btn.btn-link span i{
+	color: #008248 !important;
+}
+.myaccordion .fa-stack {
+	font-size: 18px;
+	position: absolute;
+	right: 19px;
+}
+.card .card-header .btn {
+	font-size: 15px;
+}
+.card .card-header .btn:hover,
+.card .card-header .btn:focus {
+	box-shadow: none;
+	background: transparent;
+	text-decoration: none;
+}
+.myaccordion .btn {
+  width: 100%;
+  font-weight: bold;
+  color: #004987;
+  padding: 0;
+}
+.myaccordion li + li {
+  margin-top: 10px;
+}
+.card {
+	margin-bottom: 16px;
+	box-shadow: none !important;
+	background: transparent;
+}
+#collapseOne {
+	background: #f2ebeb;
+	margin-top: 20px;
+	background: transparent;
+	box-shadow:none;
+	border: 1px solid #E7E7E7;
+}
+.card-body h6{
+	font-family: TT Norms Pro;
+	font-size: 16px;
+	color: #000;
+	padding-bottom: 20px;
+}
+.card-body p{
+	font-family: TT Norms Pro;
+}
+.card-body ul{
+	padding-top: 15px;
+	padding-left: 15px;
+}
+.card-body ul li{
+	line-height: 1.7;
+	list-style-type: decimal;
+	color: #555555;
+}
+/* According end  */
 
 .deshboard_help_main_banner_text_area{
 	background: url('../img/deshboard/banner.svg') no-repeat scroll 0 0 / cover;
@@ -579,7 +655,52 @@ h5 {
 .deshboard_help_main_area {
 	overflow: hidden;
 }
-
+.deshboard_main_help_area_header {
+	max-width: 488px;
+}
+.deshboard_main_help_area_header h4{
+	color: #008248;
+	padding-bottom: 10px;
+}
+.deshboard_main_help_according_area {
+	padding-top: 30px;
+}
+.deshboard_help_banner_area p {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.deshboard_help_search_area form{
+	position: relative;
+}
+.deshboard_help_search_area form input {
+	width: 100%;
+	height: 60px;
+	top: 330px;
+	background: #FFFFFF;
+	border: 1px solid #555555;
+	box-sizing: border-box;
+	border-radius: 8px;
+	padding: 0 38px;
+	font-size: 18px;
+}
+.deshboard_help_search_area form button {
+	position: absolute;
+	left: 10px;
+	top: 0;
+	bottom: -1px;
+	border: none;
+	background: transparent;
+	font-size: 15px;
+	color: #C9C8C7;
+}
+.deshboard_help_search_area form button i {
+	color: #94908D;
+}
 
 /*=========================== 6. Help Banner Main area End   =============================*/
+
+
 
