@@ -23,6 +23,11 @@
 	.mu_evant_create_btn a {
 		padding: 5px 15px;
 	}
+	.deshboard_main_text_account_single_profile_area {
+		flex-direction: column;
+		row-gap: 23px;
+	}
+
 }
 
 @media all and (max-width: 575px){
@@ -35,6 +40,25 @@
 	.mu_evant_create_btn a i{
 		margin-left: 0px !important;
 	}
+	.deshboard_main_body_area, .deshboard_main_account_main_area {
+		padding: 30px 14px 0 14px;
+	}
+	.deshboard_main_text_account_single_profile_edit_area_flex {
+		display: inherit;
+	}
+	.deshboard_main_text_account_single_profile_edit_area_flex{
+		border-bottom: 0;
+	}
+	.deshboard_main_text_account_single_profile_edit_area_left {
+		padding-bottom: 6px;
+	}
+	.deshboard_main_text_account_single_profile_area {
+		padding: 40px 15px;
+	}
+	.deshboard_main_body_your_events_area {
+		padding: 8px 15px;
+	}
+
 }
 
 @media all and (max-width: 450px){
@@ -57,4 +81,9 @@
 	.main-footer .footer-left {
 		text-align: center;
 	}
+	.deshboard_main_text_account_single_profile_area {
+		margin: 0px 0 40px 0px;
+	}
+
+
 }

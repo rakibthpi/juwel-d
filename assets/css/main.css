@@ -294,6 +294,9 @@ h5 {
 .deshboard_main_body_cotainer {
 	padding-top: 26px;
 }
+.deshboard_main_body_your_events_area {
+	padding: 8px 30px;
+}
 .deshboard_main_text_area {
 	display: flex;
 	height: 100%;
